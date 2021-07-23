@@ -1,0 +1,152 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    padding: 30px;
+    padding-top: 8px;
+    width: 870px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 25px;
+}
+
+/* top-players style  */
+.section-heading{
+    color: #562EFF;
+    font-size: 24px;
+}
+.top-players{
+    margin-bottom: 25px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* top-blogs styles */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    /* align-items: center; */
+    align-content: center;
+}
+.blog{
+    display: flex;
+    width: 357px;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-detail{
+    margin-left: 16px;
+}
+.blog-title{
+    margin-top: 0;
+    font-weight: 500;
+    
+}
+.blog-author{
+    font-size: 16px;
+    color: #9F9F9F;
+    font-weight: 500;
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+}
+
+/* courses styles */
+.latest-course{
+    padding-bottom: 30px;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
+.course{
+     Width:232.42px;
+    
+    padding: px;
+}
+.course .course-image img{
+    width: 224px;
+    height: 104px;
+}
+.course-title{
+    font-weight: 500;
+}
+.course-author a{
+    text-decoration: none;
+}
+.fa-star.filled{
+    color: 
+    #FFC014;
+}
+.fas.fa-star.empty{
+    color: 
+    #AEAEAE;
+}
+
+.course-info{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    
+}
+.star-time{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 688px) {
+    
+    /* .top-players{
+        background-color: violet;
+    } */
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+    } 
+
+     .latest-course{
+        display: none;
+    }
+
+}
