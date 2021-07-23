@@ -5,7 +5,55 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 }
+/* header styles */
+.header-style{
+    height: 94px;
+    background-color: #562EFF;
+    margin-top: 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.header-icon img{
+    width: 40.42px;
+    height: 51px;
+   
+   
+    
+}
+#idea-text{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin-right: 30px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+ /* main styles */
+
+
 main{
     display: flex;
     flex-direction: column;
@@ -98,8 +146,10 @@ hr{
 }
 .course{
      Width:232.42px;
+    box-shadow: 10px 10px 30px whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
     
-    padding: px;
 }
 .course .course-image img{
     width: 224px;
@@ -110,6 +160,7 @@ hr{
 }
 .course-author a{
     text-decoration: none;
+    color: rgb(197, 18, 18);
 }
 .fa-star.filled{
     color: 
@@ -144,9 +195,5 @@ hr{
     .container{
         width: 100%;
     } 
-
-     .latest-course{
-        display: none;
-    }
 
 }
